@@ -4,9 +4,6 @@ import { PublicComponent } from './public.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
 
-// Material Design
-import { MaterialDesign } from '../material/material';
-
 const routes: Routes = [
   {
     path: '',
@@ -24,7 +21,6 @@ const routes: Routes = [
   declarations: [PublicComponent, HomeComponent],
   imports: [
     CommonModule,
-    MaterialDesign,
     RouterModule.forChild(routes)
   ]
 })

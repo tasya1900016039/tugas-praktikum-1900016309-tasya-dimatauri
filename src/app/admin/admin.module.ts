@@ -4,13 +4,9 @@ import { AdminComponent } from './admin/admin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { RouterModule, Routes } from '@angular/router';
 
-// Material Design
-import { MaterialDesign } from '../material/material';
-
 const routes: Routes = [
   {
     path: '',
-    component: AdminComponent,
     children: [
       {
         path: 'dashboard',
@@ -24,7 +20,6 @@ const routes: Routes = [
   declarations: [AdminComponent, DashboardComponent],
   imports: [
     CommonModule,
-    MaterialDesign,
     RouterModule.forChild(routes),
   ]
 })
