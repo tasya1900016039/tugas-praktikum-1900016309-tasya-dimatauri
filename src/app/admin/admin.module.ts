@@ -7,6 +7,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ImageUploaderComponent } from './image-uploader/image-uploader.component';
 import { ImageCropperModule } from 'ngx-image-cropper';
+import { ProductComponent } from './product/product.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { FormsModule } from '@angular/forms';
 
 const routes: Routes = [
   {
@@ -22,6 +25,10 @@ const routes: Routes = [
         component:GalleryComponent
       },
       {
+        path:'product',
+        component:ProductComponent
+      },
+      {
         path:'',
         redirectTo:'/admin/dashboard',
         pathMatch:'full'
@@ -33,7 +40,7 @@ const routes: Routes = [
 
 
 @NgModule({
-  declarations: [AdminComponent, DashboardComponent, GalleryComponent, ImageUploaderComponent],
+  declarations: [AdminComponent, DashboardComponent, GalleryComponent, ImageUploaderComponent, ProductComponent, ProductDetailComponent],
   entryComponents:[
     ImageUploaderComponent
   ],
@@ -41,7 +48,8 @@ const routes: Routes = [
     CommonModule,
     RouterModule.forChild(routes),
     MaterialDesign,
-    ImageCropperModule
+    ImageCropperModule,
+    FormsModule
   ]
 })
 export class AdminModule { }
