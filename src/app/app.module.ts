@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 //material design
 import {MaterialDesign} from './material-design/material';
 //plugins
@@ -27,7 +28,8 @@ import { ForgotComponent } from './auth/forgot/forgot.component';
     BrowserAnimationsModule,
     MaterialDesign,
     ImageCropperModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

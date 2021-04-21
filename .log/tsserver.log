@@ -1,0 +1,83 @@
+Info 0    [14:19:52.198] Starting TS Server
+Info 1    [14:19:52.199] Version: 3.8.3
+Info 2    [14:19:52.199] Arguments: /home/dzikri/.config/nvm/versions/node/v15.14.0/bin/node /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/node_modules/.bin/tsserver --logFile /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/a59ed84b2becfc4c3c09c1b4224dd40b/tscancellation*
+Info 3    [14:19:52.199] Platform: linux NodeVersion: 15 CaseSensitive: true
+Info 4    [14:19:52.485] Structure before ensureProjectForOpenFiles:
+Info 5    [14:19:52.486] Structure after ensureProjectForOpenFiles:
+Info 6    [14:19:52.486] got projects updated in background, updating diagnostics for 
+Info 7    [14:19:52.558] Search path: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/product
+Info 8    [14:19:52.562] For info: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/product/product.component.ts :: Config file name: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/tsconfig.json
+Info 9    [14:19:52.567] Opened configuration file /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/tsconfig.json
+Info 10   [14:19:52.840] Config: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/tsconfig.json : {
+ "rootNames": [
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/e2e/src/app.e2e-spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/e2e/src/app.po.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/main.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/polyfills.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/test.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/app-routing.module.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/app.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/app.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/app.module.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/admin.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/admin.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/admin.module.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/dashboard/dashboard.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/dashboard/dashboard.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/gallery/gallery.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/gallery/gallery.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/image-uploader/image-uploader.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/image-uploader/image-uploader.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/product/product.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/product/product.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/product-detail/product-detail.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/product-detail/product-detail.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/auth/forgot/forgot.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/auth/forgot/forgot.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/auth/login/login.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/auth/login/login.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/auth/register/register.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/auth/register/register.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/material-design/material.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/services/api.service.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/services/api.service.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/environments/environment.prod.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/environments/environment.ts"
+ ],
+ "options": {
+  "baseUrl": "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7",
+  "outDir": "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/dist/out-tsc",
+  "sourceMap": true,
+  "declaration": false,
+  "downlevelIteration": true,
+  "experimentalDecorators": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "importHelpers": true,
+  "target": 2,
+  "lib": [
+   "lib.es2018.d.ts",
+   "lib.dom.d.ts"
+  ],
+  "configFilePath": "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/tsconfig.json"
+ }
+}
+Info 11   [14:19:57.754] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/tsconfig.json
+Info 12   [14:20:11.178] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/tsconfig.json Version: 1 structureChanged: true Elapsed: 13418ms
+Info 13   [14:20:11.184] Project '/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/tsconfig.json' (Configured) 
+Info 14   [14:20:11.189] 	Files (726)
+
+Info 15   [14:20:11.194] -----------------------------------------------
+Info 16   [14:20:12.524] DirectoryWatcher:: Triggered with /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7 :: WatchInfo: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7 1 undefined Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/tsconfig.json WatchType: Wild card directory
+Info 17   [14:20:12.525] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7 :: WatchInfo: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7 1 undefined Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/tsconfig.json WatchType: Wild card directory
+Info 18   [14:20:12.814] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/tsconfig.json
+Info 19   [14:20:12.933] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/tsconfig.json Version: 2 structureChanged: false Elapsed: 118ms
+Info 20   [14:20:12.933] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 21   [14:20:12.934] Structure before ensureProjectForOpenFiles:
+Info 22   [14:20:12.934] Structure after ensureProjectForOpenFiles:
+Info 23   [14:20:12.934] got projects updated in background, updating diagnostics for /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/admin/product/product.component.ts
+Info 24   [14:21:57.479] Search path: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/services
+Info 25   [14:21:57.482] For info: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/src/app/services/api.service.ts :: Config file name: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/tsconfig.json
+Info 26   [14:22:11.842] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/tsconfig.json
+Info 27   [14:22:11.934] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid7/tsconfig.json Version: 3 structureChanged: false Elapsed: 92ms
+Info 28   [14:22:11.934] Different program with same set of files:: oldProgram.structureIsReused:: 2

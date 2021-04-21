@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -10,23 +10,56 @@ export class ApiService {
     public http:HttpClient
   ) { }
 
+  httpOptions:any;
+
+  getToken() {
+    const tokenKey = localStorage.getItem('appToken');
+    if(tokenKey != null) {
+      const tkn = JSON.parse(tokenKey);
+      this.httpOptions = {
+        headers: new HttpHeaders({
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer ' + tkn.token
+        })
+      };
+    }
+  }
+
   get(url)
   {
-    return this.http.get(this.baseUrl + url);
+    this.getToken();
+    return this.http.get(this.baseUrl + url, this.httpOptions);
   }
 
   post(url,data)
   {
-    return this.http.post(this.baseUrl + url, data);
+    this.getToken();
+    return this.http.post(this.baseUrl + url, data, this.httpOptions);
   }
 
   put(url,data)
   {
-    return this.http.put(this.baseUrl + url, data);
+    this.getToken();
+    return this.http.put(this.baseUrl + url, data, this.httpOptions);
   }
 
   delete(url)
   {
-    return this.http.delete(this.baseUrl + url);
+    this.getToken();
+    return this.http.delete(this.baseUrl + url, this.httpOptions);
+  }
+
+  register(email, password) {
+    return this.http.post(this.baseUrl + 'auth/register', {
+      email: email,
+      password: password
+    });
+  }
+
+  login(email, password) {
+    return this.http.post(this.baseUrl + 'auth/login', {
+      email: email,
+      password: password
+    });
   }
 }
