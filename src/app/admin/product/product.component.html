@@ -32,6 +32,7 @@
                     <td>{{book.isbn}}</td>
                     <td>{{book.price}}</td>
                     <td align="right">
+                        <button mat-button color="primary" (click)="uploadFile(book)">Upload</button>
                         <button mat-button color="primary" (click)="productDetail(book,idx)">Edit</button>
                         <button mat-button color="warn" (click)="deleteProduct(book.id,idx)" [disabled]="loadingDelete[idx]">{{loadingDelete[idx] ? 'Menghapus..' : 'Hapus'}}</button>
                     </td>

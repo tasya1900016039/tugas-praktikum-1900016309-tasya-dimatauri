@@ -62,4 +62,8 @@ export class ApiService {
       password: password
     });
   }
+
+  upload(file) {
+    return this.http.post(this.baseUrl + 'upload/book', file);
+  }
 }

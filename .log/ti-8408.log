@@ -1,0 +1,19 @@
+[14:19:9.831] Global cache location '/home/dzikri/.cache/typescript/3.8', safe file path '/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/node_modules/typescript/lib/typingSafeList.json', types map path /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/node_modules/typescript/lib/typesMap.json
+[14:19:9.833] Processing cache location '/home/dzikri/.cache/typescript/3.8'
+[14:19:9.833] Trying to find '/home/dzikri/.cache/typescript/3.8/package.json'...
+[14:19:9.845] Loaded content of '/home/dzikri/.cache/typescript/3.8/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.537"}}
+[14:19:9.845] Loaded content of '/home/dzikri/.cache/typescript/3.8/package-lock.json'
+[14:19:9.845] Finished processing cache location '/home/dzikri/.cache/typescript/3.8'
+[14:19:9.846] Process id: 8433
+[14:19:9.846] NPM location: /home/dzikri/.config/nvm/versions/node/v15.14.0/bin/npm (explicit '--npmLocation' not  provided)
+[14:19:9.846] validateDefaultNpmLocation: false
+[14:19:9.847] Npm config file: /home/dzikri/.cache/typescript/3.8/package.json
+[14:19:9.847] Updating types-registry npm package...
+[14:19:9.847] Exec: /home/dzikri/.config/nvm/versions/node/v15.14.0/bin/npm install --ignore-scripts types-registry@latest
+[14:19:13.83]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 3s
+
+found 0 vulnerabilities
+
+[14:19:13.89] Updated types-registry npm package

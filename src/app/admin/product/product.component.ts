@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { ProductDetailComponent } from '../product-detail/product-detail.component';
 import { ApiService } from 'src/app/services/api.service';
+import { FileUploaderComponent } from '../file-uploader/file-uploader.component';
 
 @Component({
   selector: 'app-product',
@@ -91,6 +92,16 @@ export class ProductComponent implements OnInit {
         this.loadingDelete[idx] = false;
       });
     }
+  }
+
+  uploadFile(data) {
+    const dialog = this.dialog.open(FileUploaderComponent, {
+      width: '400px',
+      data: data
+    });
+    dialog.afterClosed().subscribe(res => {
+      return
+    });
   }
 
 }

@@ -10,6 +10,7 @@ import { ImageCropperModule } from 'ngx-image-cropper';
 import { ProductComponent } from './product/product.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { FormsModule } from '@angular/forms';
+import { FileUploaderComponent } from './file-uploader/file-uploader.component';
 
 const routes: Routes = [
   {
@@ -40,7 +41,7 @@ const routes: Routes = [
 
 
 @NgModule({
-  declarations: [AdminComponent, DashboardComponent, GalleryComponent, ImageUploaderComponent, ProductComponent, ProductDetailComponent],
+  declarations: [AdminComponent, DashboardComponent, GalleryComponent, ImageUploaderComponent, ProductComponent, ProductDetailComponent, FileUploaderComponent],
   entryComponents:[
     ImageUploaderComponent
   ],
