@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
 import { ApiService } from 'src/app/services/api.service';
-import { MatDialogRef } from '@angular/material/dialog';
+import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-file-uploader',
@@ -11,10 +11,12 @@ export class FileUploaderComponent implements OnInit {
 
   constructor(
     public api:ApiService,
-    public dialogRef:MatDialogRef<FileUploaderComponent>
+    public dialogRef:MatDialogRef<FileUploaderComponent>,
+    @Inject(MAT_DIALOG_DATA) public dialogData
   ) { }
 
   ngOnInit(): void {
+    console.log(this.dialogData);
   }
 
   selectedFile:any;
@@ -44,13 +46,24 @@ export class FileUploaderComponent implements OnInit {
 
   updateProduct(data) {
     if (data.status) {
-      this.loadingUpload = false;
+      this.updateBook(data);
       alert('File berhasil diunggah');
+      this.loadingUpload = false;
       this.dialogRef.close();
       return;
     }
 
     alert(data.message);
+  }
+
+  updateBook(data) {
+    this.api.put('book/' + this.dialogData.id, {
+      url: data.url
+    }).subscribe(res => {
+      console.log(res);
+    }, err => {
+      console.log(err);
+    });
   }
 
 }

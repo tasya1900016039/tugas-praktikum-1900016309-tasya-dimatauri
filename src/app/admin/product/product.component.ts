@@ -3,6 +3,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { ProductDetailComponent } from '../product-detail/product-detail.component';
 import { ApiService } from 'src/app/services/api.service';
 import { FileUploaderComponent } from '../file-uploader/file-uploader.component';
+import * as FileSaver from 'file-saver';
 
 @Component({
   selector: 'app-product',
@@ -102,6 +103,10 @@ export class ProductComponent implements OnInit {
     dialog.afterClosed().subscribe(res => {
       return
     });
+  }
+
+  downloadFile(data) {
+    FileSaver.saveAs('http://api.sunhouse.co.id/bookstore/' + data.url);
   }
 
 }

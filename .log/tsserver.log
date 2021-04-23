@@ -1,51 +1,54 @@
-Info 0    [14:58:17.815] Starting TS Server
-Info 1    [14:58:17.816] Version: 3.8.3
-Info 2    [14:58:17.816] Arguments: /home/dzikri/.config/nvm/versions/node/v15.14.0/bin/node /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/node_modules/.bin/tsserver --logFile /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/855c968a1405c8c25ee95a66f1dfc0cc/tscancellation*
-Info 3    [14:58:17.816] Platform: linux NodeVersion: 15 CaseSensitive: true
-Info 4    [14:58:17.850] Search path: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/file-uploader
-Info 5    [14:58:17.856] For info: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/file-uploader/file-uploader.component.ts :: Config file name: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/tsconfig.json
-Info 6    [14:58:17.857] Opened configuration file /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/tsconfig.json
-Info 7    [14:58:18.29] Config: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/tsconfig.json : {
+Info 0    [16:52:23.584] Starting TS Server
+Info 1    [16:52:23.585] Version: 3.8.3
+Info 2    [16:52:23.585] Arguments: /home/dzikri/.config/nvm/versions/node/v15.14.0/bin/node /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/node_modules/.bin/tsserver --logFile /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/a59c790834f99cb7a380118db7a98b2a/tscancellation*
+Info 3    [16:52:23.585] Platform: linux NodeVersion: 15 CaseSensitive: true
+Info 4    [16:52:23.906] Structure before ensureProjectForOpenFiles:
+Info 5    [16:52:23.906] Structure after ensureProjectForOpenFiles:
+Info 6    [16:52:23.907] got projects updated in background, updating diagnostics for 
+Info 7    [16:52:24.23] Search path: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/file-uploader
+Info 8    [16:52:24.27] For info: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/file-uploader/file-uploader.component.ts :: Config file name: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 9    [16:52:24.27] Opened configuration file /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 10   [16:52:24.328] Config: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json : {
  "rootNames": [
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/e2e/src/app.e2e-spec.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/e2e/src/app.po.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/main.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/polyfills.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/test.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/app-routing.module.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/app.component.spec.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/app.component.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/app.module.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/admin.component.spec.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/admin.component.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/admin.module.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/dashboard/dashboard.component.spec.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/dashboard/dashboard.component.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/file-uploader/file-uploader.component.spec.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/file-uploader/file-uploader.component.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/gallery/gallery.component.spec.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/gallery/gallery.component.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/image-uploader/image-uploader.component.spec.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/image-uploader/image-uploader.component.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/product/product.component.spec.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/product/product.component.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/product-detail/product-detail.component.spec.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/admin/product-detail/product-detail.component.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/auth/forgot/forgot.component.spec.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/auth/forgot/forgot.component.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/auth/login/login.component.spec.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/auth/login/login.component.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/auth/register/register.component.spec.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/auth/register/register.component.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/material-design/material.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/services/api.service.spec.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/app/services/api.service.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/environments/environment.prod.ts",
-  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/src/environments/environment.ts"
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/e2e/src/app.e2e-spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/e2e/src/app.po.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/main.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/polyfills.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/test.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/app-routing.module.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/app.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/app.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/app.module.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/admin.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/admin.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/admin.module.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/dashboard/dashboard.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/dashboard/dashboard.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/file-uploader/file-uploader.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/file-uploader/file-uploader.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/gallery/gallery.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/gallery/gallery.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/image-uploader/image-uploader.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/image-uploader/image-uploader.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/product/product.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/product/product.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/product-detail/product-detail.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/admin/product-detail/product-detail.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/auth/forgot/forgot.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/auth/forgot/forgot.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/auth/login/login.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/auth/login/login.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/auth/register/register.component.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/auth/register/register.component.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/material-design/material.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/services/api.service.spec.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/app/services/api.service.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/environments/environment.prod.ts",
+  "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/src/environments/environment.ts"
  ],
  "options": {
-  "baseUrl": "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8",
-  "outDir": "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/dist/out-tsc",
+  "baseUrl": "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9",
+  "outDir": "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/dist/out-tsc",
   "sourceMap": true,
   "declaration": false,
   "downlevelIteration": true,
@@ -58,7 +61,197 @@ Info 7    [14:58:18.29] Config: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/proj
    "lib.es2018.d.ts",
    "lib.dom.d.ts"
   ],
-  "configFilePath": "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/tsconfig.json"
+  "configFilePath": "/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json"
  }
 }
-Info 8    [14:58:21.90] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid8/tsconfig.json
+Info 11   [16:52:29.206] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 12   [16:52:42.775] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 1 structureChanged: true Elapsed: 13563ms
+Info 13   [16:52:42.777] Project '/home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json' (Configured) 
+Info 14   [16:52:42.778] 	Files (729)
+
+Info 15   [16:52:42.778] -----------------------------------------------
+Info 16   [16:53:13.28] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 17   [16:53:13.114] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 2 structureChanged: false Elapsed: 85ms
+Info 18   [16:53:13.114] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 19   [16:53:14.745] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 20   [16:53:14.815] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 3 structureChanged: false Elapsed: 68ms
+Info 21   [16:53:14.815] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 22   [16:53:15.90] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 23   [16:53:15.183] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 4 structureChanged: false Elapsed: 93ms
+Info 24   [16:53:15.184] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 25   [16:53:15.417] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 26   [16:53:15.586] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 5 structureChanged: false Elapsed: 169ms
+Info 27   [16:53:15.587] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 28   [16:53:15.741] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 29   [16:53:15.825] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 6 structureChanged: false Elapsed: 84ms
+Info 30   [16:53:15.830] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 31   [16:53:16.36] getCompletionData: Get current token: 0
+Info 32   [16:53:16.36] getCompletionData: Is inside comment: 0
+Info 33   [16:53:16.36] getCompletionData: Get previous token 1: 0
+Info 34   [16:53:16.36] getCompletionData: Get previous token 2: 0
+Info 35   [16:53:16.37] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 36   [16:53:16.67] getSymbolsFromOtherSourceFileExports: Recomputing list
+Info 37   [16:53:16.381] forEachExternalModuleToImportFrom: filtered out 25 modules by package.json contents
+Info 38   [16:53:16.381] getSymbolsFromOtherSourceFileExports: 314
+Info 39   [16:53:16.402] getCompletionData: Semantic work: 364
+Info 40   [16:53:16.457] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 53
+Info 41   [16:53:16.529] getCompletionData: Get current token: 0
+Info 42   [16:53:16.530] getCompletionData: Is inside comment: 0
+Info 43   [16:53:16.530] getCompletionData: Get previous token 1: 0
+Info 44   [16:53:16.530] getCompletionData: Get previous token 2: 0
+Info 45   [16:53:16.530] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 46   [16:53:16.551] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 47   [16:53:16.585] getCompletionData: Semantic work: 55
+Info 48   [16:53:16.683] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 98
+Info 49   [16:53:16.759] getCompletionData: Get current token: 0
+Info 50   [16:53:16.759] getCompletionData: Is inside comment: 0
+Info 51   [16:53:16.759] getCompletionData: Get previous token 1: 0
+Info 52   [16:53:16.759] getCompletionData: Get previous token 2: 0
+Info 53   [16:53:16.759] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 54   [16:53:16.788] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 55   [16:53:16.806] getCompletionData: Semantic work: 47
+Info 56   [16:53:16.883] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 77
+Info 57   [16:53:16.913] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 58   [16:53:16.998] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 7 structureChanged: false Elapsed: 85ms
+Info 59   [16:53:16.998] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 60   [16:53:17.332] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 61   [16:53:17.806] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 8 structureChanged: false Elapsed: 474ms
+Info 62   [16:53:17.806] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 63   [16:53:18.189] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 64   [16:53:18.307] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 9 structureChanged: false Elapsed: 118ms
+Info 65   [16:53:18.307] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 66   [16:53:18.981] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 67   [16:53:19.122] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 10 structureChanged: false Elapsed: 141ms
+Info 68   [16:53:19.122] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 69   [16:53:19.239] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 70   [16:53:19.289] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 11 structureChanged: false Elapsed: 50ms
+Info 71   [16:53:19.290] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 72   [16:53:20.537] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 73   [16:53:20.627] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 12 structureChanged: false Elapsed: 89ms
+Info 74   [16:53:20.627] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 75   [16:53:21.118] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 76   [16:53:21.223] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 13 structureChanged: false Elapsed: 105ms
+Info 77   [16:53:21.223] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 78   [16:53:22.598] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 79   [16:53:22.662] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 14 structureChanged: false Elapsed: 64ms
+Info 80   [16:53:22.662] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 81   [16:53:28.803] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 82   [16:53:28.849] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 15 structureChanged: false Elapsed: 45ms
+Info 83   [16:53:28.849] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 84   [16:53:29.410] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 85   [16:53:29.458] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 16 structureChanged: false Elapsed: 47ms
+Info 86   [16:53:29.458] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 87   [16:53:29.518] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 88   [16:53:29.583] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 17 structureChanged: false Elapsed: 65ms
+Info 89   [16:53:29.583] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 90   [16:53:29.998] getCompletionData: Get current token: 0
+Info 91   [16:53:29.998] getCompletionData: Is inside comment: 0
+Info 92   [16:53:29.998] getCompletionData: Get previous token 1: 0
+Info 93   [16:53:29.998] getCompletionData: Get previous token 2: 0
+Info 94   [16:53:29.999] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 95   [16:53:30.15] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 96   [16:53:30.49] getCompletionData: Semantic work: 50
+Info 97   [16:53:30.79] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 26
+Info 98   [16:53:39.513] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 99   [16:53:39.578] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 18 structureChanged: false Elapsed: 65ms
+Info 100  [16:53:39.578] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 101  [16:53:39.579] getCompletionData: Get current token: 0
+Info 102  [16:53:39.579] getCompletionData: Is inside comment: 0
+Info 103  [16:53:39.581] getCompletionData: Get previous token 1: 2
+Info 104  [16:53:39.581] getCompletionData: Get previous token 2: 0
+Info 105  [16:53:39.582] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 106  [16:53:39.598] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 107  [16:53:39.635] getCompletionData: Semantic work: 53
+Info 108  [16:53:39.803] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 167
+Info 109  [16:53:39.953] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 110  [16:53:40.82] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 19 structureChanged: false Elapsed: 129ms
+Info 111  [16:53:40.82] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 112  [16:53:40.83] getCompletionData: Get current token: 0
+Info 113  [16:53:40.83] getCompletionData: Is inside comment: 0
+Info 114  [16:53:40.83] getCompletionData: Get previous token 1: 0
+Info 115  [16:53:40.83] getCompletionData: Get previous token 2: 0
+Info 116  [16:53:40.92] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 117  [16:53:40.109] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 118  [16:53:40.119] getCompletionData: Semantic work: 27
+Info 119  [16:53:40.194] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 75
+Info 120  [16:53:40.240] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 121  [16:53:40.365] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 20 structureChanged: false Elapsed: 125ms
+Info 122  [16:53:40.365] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 123  [16:53:40.366] getCompletionData: Get current token: 0
+Info 124  [16:53:40.366] getCompletionData: Is inside comment: 0
+Info 125  [16:53:40.366] getCompletionData: Get previous token 1: 0
+Info 126  [16:53:40.367] getCompletionData: Get previous token 2: 1
+Info 127  [16:53:40.367] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 128  [16:53:40.382] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 129  [16:53:40.403] getCompletionData: Semantic work: 36
+Info 130  [16:53:40.506] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 103
+Info 131  [16:53:40.820] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 132  [16:53:40.933] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 21 structureChanged: false Elapsed: 113ms
+Info 133  [16:53:40.933] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 134  [16:53:41.51] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 135  [16:53:41.219] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 22 structureChanged: false Elapsed: 168ms
+Info 136  [16:53:41.220] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 137  [16:53:42.68] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 138  [16:53:42.143] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 23 structureChanged: false Elapsed: 75ms
+Info 139  [16:53:42.143] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 140  [16:53:43.46] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 141  [16:53:43.97] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 24 structureChanged: false Elapsed: 50ms
+Info 142  [16:53:43.98] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 143  [16:53:44.815] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 144  [16:53:44.881] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 25 structureChanged: false Elapsed: 66ms
+Info 145  [16:53:44.881] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 146  [16:53:45.138] getCompletionData: Get current token: 1
+Info 147  [16:53:45.138] getCompletionData: Is inside comment: 0
+Info 148  [16:53:45.138] getCompletionData: Get previous token 1: 0
+Info 149  [16:53:45.138] getCompletionData: Get previous token 2: 0
+Info 150  [16:53:45.139] getCompletionsAtPosition: isCompletionListBlocker: 1
+Info 151  [16:53:45.149] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 152  [16:53:45.155] getCompletionData: Semantic work: 16
+Info 153  [16:53:45.169] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11
+Info 154  [16:53:45.793] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 155  [16:53:45.894] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 26 structureChanged: false Elapsed: 101ms
+Info 156  [16:53:45.895] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 157  [16:53:45.896] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 158  [16:53:45.955] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 27 structureChanged: false Elapsed: 59ms
+Info 159  [16:53:45.955] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 160  [16:53:46.350] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 161  [16:53:46.420] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 28 structureChanged: false Elapsed: 70ms
+Info 162  [16:53:46.420] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 163  [16:53:46.723] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 164  [16:53:46.777] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 29 structureChanged: false Elapsed: 54ms
+Info 165  [16:53:46.777] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 166  [16:53:46.952] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 167  [16:53:47.4] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 30 structureChanged: false Elapsed: 50ms
+Info 168  [16:53:47.4] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 169  [16:53:47.129] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 170  [16:53:47.173] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 31 structureChanged: false Elapsed: 43ms
+Info 171  [16:53:47.173] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 172  [16:53:47.637] getCompletionData: Get current token: 0
+Info 173  [16:53:47.637] getCompletionData: Is inside comment: 0
+Info 174  [16:53:47.638] getCompletionData: Get previous token 1: 0
+Info 175  [16:53:47.638] getCompletionData: Get previous token 2: 0
+Info 176  [16:53:47.639] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 177  [16:53:47.648] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 178  [16:53:47.658] getCompletionData: Semantic work: 19
+Info 179  [16:53:47.673] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 15
+Info 180  [16:53:48.311] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 181  [16:53:48.359] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 32 structureChanged: false Elapsed: 47ms
+Info 182  [16:53:48.359] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 183  [16:53:48.552] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 184  [16:53:48.601] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 33 structureChanged: false Elapsed: 48ms
+Info 185  [16:53:48.602] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 186  [16:54:4.298] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 187  [16:54:4.349] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 34 structureChanged: false Elapsed: 50ms
+Info 188  [16:54:4.349] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 189  [16:54:5.514] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 190  [16:54:5.576] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 35 structureChanged: false Elapsed: 62ms
+Info 191  [16:54:5.576] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 192  [16:54:7.668] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 193  [16:54:7.727] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 36 structureChanged: false Elapsed: 59ms
+Info 194  [16:54:7.727] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 195  [16:54:8.645] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 196  [16:54:8.728] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 37 structureChanged: false Elapsed: 83ms
+Info 197  [16:54:8.729] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 198  [16:54:13.305] Starting updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json
+Info 199  [16:54:13.358] Finishing updateGraphWorker: Project: /home/dzikri/Dev/JOKI/Fadilla/angular/clone/project-akhir-semester-vid9/tsconfig.json Version: 38 structureChanged: false Elapsed: 52ms
+Info 200  [16:54:13.358] Different program with same set of files:: oldProgram.structureIsReused:: 2
