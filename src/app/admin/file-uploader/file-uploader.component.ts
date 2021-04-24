@@ -50,10 +50,9 @@ export class FileUploaderComponent implements OnInit {
       alert('File berhasil diunggah');
       this.loadingUpload = false;
       this.dialogRef.close();
-      return;
+    } else {
+      alert(data.message);
     }
-
-    alert(data.message);
   }
 
   updateBook(data) {
