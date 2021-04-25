@@ -56,9 +56,8 @@ export class FileUploaderComponent implements OnInit {
   }
 
   updateBook(data) {
-    this.api.put('book/' + this.dialogData.id, {
-      url: data.url
-    }).subscribe(res => {
+    this.dialogData.url = data.url;
+    this.api.put('books/' + this.dialogData.id, this.dialogData).subscribe(res => {
       console.log(res);
     }, err => {
       console.log(err);
